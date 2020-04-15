@@ -1,4 +1,4 @@
-# Be-Friend-Minor-Project-6th-Sem
+# BeFriend-The Guide (6th Sem Minor Project)
 An Ongoing Project, a part of the Academic Minor Project of the 6th semester.
             
 1> This project aims to ease the daily routine queries and difficulties faced by students new 
