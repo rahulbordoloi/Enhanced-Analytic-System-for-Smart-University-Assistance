@@ -6,7 +6,9 @@ to the KIIT campus. It would ensure the prediction of the professions that can b
 by young aspiring engineering students after completion of the course.                     
 2> Also, it would help the college authorities to automate the counselling process (branch selection) with ease.  
 
-Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter     
+Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter 
+
+Website : http://befriend-minor.herokuapp.com
 
 Updates - WebD, Andro.         
  
