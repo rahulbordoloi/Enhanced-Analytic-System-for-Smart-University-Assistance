@@ -10,5 +10,13 @@ Technologies Being Used : Data Mining, Machine Learning, Full Stack Development,
 
 Website : http://befriend-minor.herokuapp.com
 
-Updates - WebD, Andro.         
+Updates - WebD, Andro.
+
+An integration specific system development based on Agile Methodology to provide
+an easy solution for “newcomers” in college. It helps to allocate hostel rooms,
+suggest suitable stream, and provide daily class schedules and pending tasks.
+Moreover it makes an easy solution to students to do few tasks without the help of
+their mentors.
+Technology and language used: PHP, MongoDB, MySQL, Python-Flask, AWS
+EC2, Restful API, CSS, JavaScript, Apache Server, PuTTY.
  
