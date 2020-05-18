@@ -7,7 +7,7 @@ An integration specific system development based on Agile Methodology to provide
 Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter.
 Tools and Languages Being Used : Python, PHP, MongoDB, MySQL, Flask, AWS, EC2, Restful API, CSS, JavaScript, Apache Server, PuTTY.
 
-Submitted to - <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M8.11 2.8a.34.34 0 00-.2 0L.27 5.18a.35.35 0 000 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 000-.67L8.1 2.81l.01-.01zM4 8l3.83 1.19h-.02c.13.03.25.03.36 0L12 8v2.5c0 1-1.8 1.5-4 1.5s-4-.5-4-1.5V8zm3.02-2.5c0 .28.45.5 1 .5s1-.22 1-.5-.45-.5-1-.5-1 .22-1 .5z"></path></svg> KIIT University
+Submitted to - {% octicon mortar-board %} KIIT University
 
 # 1. Introduction
 Often after higher secondary results students find themselves in a turmoil in deciding what stream of engineering is best suited for them. BEFRIEND aims to be a guide. It will provide students an easy and user friendly platform available in both web and mobile application formats where students can enter their marks and the entrance exam rank. Implementing Data Analytics on the 
