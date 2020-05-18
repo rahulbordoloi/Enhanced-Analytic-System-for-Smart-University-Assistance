@@ -10,7 +10,7 @@ An integration specific system development based on Agile Methodology to provide
 Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter.
 Tools and Languages Being Used : Python, PHP, MongoDB, MySQL, Flask, AWS, EC2, Restful API, CSS, JavaScript, Apache Server, PuTTY.
 
-All documentation is in the "docs" directory
+All documentation is in the ``` "/docs" ``` directory
 
 ## 1. Introduction
 Often after higher secondary results students find themselves in a turmoil in deciding what stream of engineering is best suited for them. BEFRIEND aims to be a guide. It will provide students an easy and user friendly platform available in both web and mobile application formats where students can enter their marks and the entrance exam rank. Implementing Data Analytics on the 
