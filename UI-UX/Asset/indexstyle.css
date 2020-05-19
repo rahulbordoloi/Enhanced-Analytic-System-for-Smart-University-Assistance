@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao|Dosis:800|Simonetta:400,900&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    color: #000;
+    text-decoration: none;
+}
+
+.row{
+  max-width: 100%;
+}
+
+#h{
+  background-image: url("/Asset/Image/hr1.png");
+  height: 36px;
+  width: 236px;
+  background-size: cover;
+  background-color: transparent;
+}
+/* All About Head */
+
+.head-abs{
+    position: absolute;
+    z-index: 2;
+    padding: 1rem 1rem 1rem 1rem;
+    top: 1rem; left: 1rem;
+    background-color: #ebe7e7;
+    border-right: 4px solid rgb(0, 0, 0);
+    border-bottom: 4px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    transition-duration: 0.25s;
+}
+.head-abs:hover{
+    background-color: #fff;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 4px solid rgb(0, 0, 0);
+    border-left: 4px solid rgb(0, 0, 0);
+}
+.abs-pic{
+    height: 100%;
+    color: #817677;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: 'Simonetta', sans-serif;
+}
+.masthead::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(57, 49, 49, 0.7);
+    z-index: 1;
+    content: '';
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/Asset/Image/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .masthead, .container, .h-100, .row, .align-items-center, .col-12,
+  .text-center ,.head-h1
+  {
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+    color: #fff;
+    z-index: 99;
+  }
+  .head-h1{
+      font-size: 72px;
+      font-family: 'Dosis', Sans-serif;
+      animation-name: header-a;
+      animation-duration: 4s;
+      color: #000;
+      background-image: url("/Asset/Image/head-h1.jpg");
+      -webkit-background-clip: text;
+      background-clip: text;
+      background-size: 50%;
+      -webkit-text-fill-color: transparent;
+      /* text-fill-color: transparent; */
+  }
+  .head-p{
+      color: #fff;
+      font-size: 24px;
+      font-family: 'Simonetta', sans-serif;
+      font-weight: 600;
+  }
+  .head-h2{
+    font-family: 'Simonetta', sans-serif;
+    font-weight: bolder;
+    color: rgb(250, 250, 250);
+    transition-duration: 0.25s;
+  }
+  .head-h2:hover{
+      color: #000;
+  }
+  .material-icons{
+      background-image: url("/Asset/Image/fingerprint-white.svg");
+  }
+  .material-icons:hover{
+    background-image: url("/Asset/Image/fingerprint-black.svg");
+  }
+
+
+  /* Section 1: Rulebooks */
+  .sec-1{
+    width: 100%;
+    height: 75%;
+    /* background-color: rgb(2, 67, 30); */
+  }
+  .sec-1 > .row > .col-sm-4{
+    padding-left: 5px;
+    padding-right: px;
+  }
+  .section-h2{
+    font-family: 'Simonetta', sans-serif;
+    font-weight: bolder;
+    padding-top: 30px;
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+  }
+  .card-img-top{
+    height: 250px;
+    background-color: rgb(232, 250, 253);
+    border-radius: 25px;
+    border-right: 2px solid rgb(134, 173, 199);
+    border-bottom: 2px solid rgb(134, 173, 199);
+    padding: 5px 5px 5px 5px;
+    transition-duration: 0.20s;
+  }
+  .card-img-top:hover{
+    border-right: 0px solid rgb(134, 173, 199);
+    border-bottom: 0px solid rgb(134, 173, 199);
+    border-left: 2px solid rgb(134, 173, 199);
+    border-top: 2px solid rgb(134, 173, 199);
+  }
+
+  /* Section 2: Non-members */
+  
+  .vital > .row{
+    width: 100%;
+    height: 90%;
+  }
+  .s2-instruction{
+    color: rgb(99, 99, 99);
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .highlight-text{
+    color: #2fa1b8;
+  }
+  .s2-h1{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bolder;
+  }
+  .s2-p > b{
+    font-family: 'Simonetta', sans-serif;
+    font-size: 24px;
+  }
+  .s2-p{
+    font-family: 'Simonetta', sans-serif;
+    font-size: 18px;
+    color: rgb(99, 99, 99);
+  }
+  .caurosal > img{
+    width: 100%;
+    height: inherit;
+  }
+  .c-imshow{
+    display: none;
+    transition-duration: 1s;
+  }
+  .im-active{
+    display: block;
+    transition-duration: 1s;
+    border-radius: 25px;
+    z-index: 8;
+  }
+  .s2-bottom{
+    font-family: 'Simonetta', sans-serif;
+    font-weight: bold;
+  }
+  a, #e-sp{
+    color: #2fa1b8;
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+  #e-sp:hover{
+    margin-left: 20px;
+    transition-duration: 0.5s;
+    font-stretch: expanded;
+  }
+
+  /*Section 3: Admin*/
+
+  /* Section 3: Member  */
+
+  /* FAQ */
+  .FAQ > .row{
+    width: 100%;
+    height: 85%;
+  }
+
+  /* Float Absolute Right */
+  .abs-right{
+    top: 0px;
+    right: 0px;
+    overflow-x: hidden;
+    padding: 20px 40px 20px 20px;
+    position: absolute;
+    z-index: 8;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom-left-radius: 25px ;
+  }
+  .abs-right:hover{
+    top: 30px;
+    transition-duration: 0.5s;
+  }
+  .abs-right > picture{
+    border-radius: 25px;
+  }
+  .social{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+  }
+  /* Footer */
+  footer{
+    color: #fff;
+    width: 100%;
+  }
+  .foot-logo{
+    height: 150px;
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  .foot-p{
+    margin-top: 15px;
+    font-family: 'Simonetta', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .div2 > ul > a, .div2 > ul > a > li{
+    padding-top: 15px;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+  }
+  .foot-h2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+  }
