@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
+<!-- include aframe-ar.js -->
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<!-- include ar.js for A-Frame -->
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<!-- Register an aframe component that allows reacting to marker events -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<script>
+    window.addEventListener('camera-init', (data) => {
+        console.log('camera-init', data);
+    })
+
+    window.addEventListener('camera-error', (error) => {
+        console.log('camera-error', error);
+    })
+
+	AFRAME.registerComponent('registerevents', {
+		init: function () {
+			var marker = this.el;
+
+			marker.addEventListener('markerFound', function() {
+				setTimeout(() => { console.log("World!"); }, 2000);
+				var markerId = marker.id;
+				console.log('markerFound', markerId);
+				var pwd= prompt("Password: ");
+				if(pwd=='admin')
+				{
+					Swal.fire({
+					  title: 'Submit your Github username',
+					  input: 'text',
+					  inputAttributes: {
+					    autocapitalize: 'off'
+					  },
+					  showCancelButton: true,
+					  confirmButtonText: 'Look up',
+					  showLoaderOnConfirm: true,
+					  preConfirm: (login) => {
+					    return fetch(`//api.github.com/users/${login}`)
+					      .then(response => {
+					        if (!response.ok) {
+					          throw new Error(response.statusText)
+					        }
+					        return response.json()
+					      })
+					      .catch(error => {
+					        Swal.showValidationMessage(
+					          `Request failed: ${error}`
+					        )
+					      })
+					  },
+					  allowOutsideClick: () => !Swal.isLoading()
+					}).then((result) => {
+					  if (result.value) 
+					  {
+					    Swal.fire(
+					    	'Hmmmm!',
+							'Lets Gather your Information!',
+							'info')
+					    window.location.href="/admin.php?v="+result.value.id.toString()+result.value.node_id;
+					  }
+					})
+				}
+			});
+
+			marker.addEventListener('markerLost', function() {
+				var markerId = marker.id;
+				console.log('markerLost', markerId);
+				// TODO: Add your own code here to react to the marker being lost.
+			});
+		}
+	});
+</script>
+
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+	<a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960;'>
+		<!-- handle hiro marker -->
+		<!-- 'registerevents' will register event listeners for the marker when it is found and lost,
+		as defined in the inline script above -->
+		<a-marker preset='hiro' id='marker-hiro' registerevents>
+			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:blue;'>
+				<a-torus-knot radius='0.26' radius-tubular='0.05'
+				animation="property: rotation; to:360 0 0; dur: 5000; easing: linear; loop: true">
+				</a-torus-knot>
+			</a-box>
+		</a-marker>
+
+		<!-- handle matrix marker -->
+		<!-- 'emitevents' will make the marker emit events when it is found and lost
+		but, since there are no registered listeners for these events, you will not see any effect.
+		You can register event listeners in your own custom component, defined similarly to
+		the 'registerevents' in the inline script above -->
+		<a-marker type='barcode' value='5' id='marker-barcode-5'>
+			<a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:red;'>
+				<a-torus-knot radius='0.26' radius-tubular='0.05'
+				animation="property: rotation; to:360 0 0; dur: 5000; easing: linear; loop: true">
+				</a-torus-knot>
+			</a-box>
+		</a-marker>
+
+		<!-- add a simple camera -->
+		<a-entity camera></a-entity>
+	</a-scene>
+</body>
+</html>
