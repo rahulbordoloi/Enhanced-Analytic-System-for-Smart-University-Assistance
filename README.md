@@ -21,15 +21,15 @@ In student life, time management plays a crucial role. With rapid changing needs
 Our aim is to build a complete self-adapted system that deals with several problems together without manual interference. Using all sub-systems integrated in a single platform will make it more robust and efficient both in terms of technology and time management. The auto-correlated system we aim to build provides a solution by taking output of a sub-system as an input to the other one.
 ## 4. Project Goal
 ➢ Suggesting freshers the branch that is most suitable for them <br>
-➢ To simplify the process of allotment of hostel to students
-➢ A virtual static Mentor Bot to reduce workload.
-➢ Career recommendation to under-graduate engineering students for higher education
-➢ To-do list for assignments and other tasks
-➢ Self-monitoring system- to check progress and learning curve after each semester
-➢ Notify students about all latest notices and events hosted by KIIT and KISS
-➢ Daily schedule to keep up the learning pace of students, includes class routines, class tests and quizzes.
-➢ Voice detection to ensure the students emotional state is stable.
-➢ Creation of platform where alumni of KIIT can be participate in discussions with their batch mates.
+➢ To simplify the process of allotment of hostel to students <br>
+➢ A virtual static Mentor Bot to reduce workload. <br>
+➢ Career recommendation to under-graduate engineering students for higher education. <br>
+➢ To-do list for assignments and other tasks. <br>
+➢ Self-monitoring system- to check progress and learning curve after each semester. <br>
+➢ Notify students about all latest notices and events hosted by KIIT and KISS. <br>
+➢ Daily schedule to keep up the learning pace of students, includes class routines, class tests and quizzes. <br>
+➢ Voice detection to ensure the students emotional state is stable. <br>
+➢ Creation of platform where alumni of KIIT can be participate in discussions with their batch mates. <br>
 ## 5. Features
 1. Completely self-adapted system.
 2. Multiple utility platform.
@@ -37,6 +37,8 @@ Our aim is to build a complete self-adapted system that deals with several probl
 4. State-of-the-art tools and platforms are used to get consistent and accurate results every time.
 5. User-Friendly interface.
 6. Available in both web and mobile application interface.
+## 6. System Hierarchy
+![](/UI-UX/Asset/Image/syshie.JPG)
 
 ## Deployment [click me](http://befriend-minor.herokuapp.com)
 
