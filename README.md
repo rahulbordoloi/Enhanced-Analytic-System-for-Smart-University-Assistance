@@ -10,7 +10,7 @@ An integration specific system development based on Agile Methodology to provide
 Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter.
 Tools and Languages Being Used : Python, PHP, MongoDB, MySQL, Flask, AWS, EC2, Restful API, CSS, JavaScript, Apache Server, PuTTY.
 
-All documentation is in the ``` "/docs" ``` directory
+All documentations are in the ``` "/docs" ``` directory.
 
 ## 1. Introduction
 Often after higher secondary results students find themselves in a turmoil in deciding what stream of engineering is best suited for them. BEFRIEND aims to be a guide. It will provide students an easy and user friendly platform available in both web and mobile application formats where students can enter their marks and the entrance exam rank. Implementing Data Analytics on the 
@@ -20,7 +20,7 @@ In student life, time management plays a crucial role. With rapid changing needs
 ## 3. Mission Objective
 Our aim is to build a complete self-adapted system that deals with several problems together without manual interference. Using all sub-systems integrated in a single platform will make it more robust and efficient both in terms of technology and time management. The auto-correlated system we aim to build provides a solution by taking output of a sub-system as an input to the other one.
 ## 4. Project Goal
-➢ Suggesting freshers the branch that is most suitable for them
+➢ Suggesting freshers the branch that is most suitable for them <br>
 ➢ To simplify the process of allotment of hostel to students
 ➢ A virtual static Mentor Bot to reduce workload.
 ➢ Career recommendation to under-graduate engineering students for higher education
