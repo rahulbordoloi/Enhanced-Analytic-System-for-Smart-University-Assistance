@@ -7,7 +7,7 @@ An integration specific system development based on Agile Methodology to provide
  
  Website : http://befriend-minor.herokuapp.com 
 
-Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter.
+Technologies Being Used : Data Mining, Machine Learning, Full Stack Development, Flutter. <br>
 Tools and Languages Being Used : Python, PHP, MongoDB, MySQL, Flask, AWS, EC2, Restful API, CSS, JavaScript, Apache Server, PuTTY.
 
 All documentations are in the ``` "/docs" ``` directory.
