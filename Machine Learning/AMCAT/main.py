@@ -813,7 +813,7 @@ loaded_model = pickle.load(open(filename,'rb'))
 result = loaded_model.score(x_test, y_test)
 print(result)
 
-"""# 11. Creating a ML Pipeline"""
+"""# 10. Creating a ML Pipeline"""
 
 from sklearn.pipeline import Pipeline
 
@@ -851,9 +851,9 @@ pipe = Pipeline([('standard', StandardScaler()),
 pipe.fit(x_train, y_train)
 
 score = pipe.score(x_test, y_test)
-print('Logistic Regression pipeline test accuracy: %.3f' % score)
+print('Linear-SVM pipeline test accuracy: %.3f' % score)
 
-"""# 12. Generating Requirements File"""
+"""# 11. Generating Requirements File"""
 
 !pip freeze > requirements.txt
 
