@@ -27,7 +27,7 @@ CacheControl==0.12.6
 cachetools==3.1.1
 catalogue==1.0.0
 category-encoders==2.2.2
-certifi==2020.4.5.1
+certifi==2022.12.7
 cffi==1.14.0
 chainer==6.5.0
 chardet==3.0.4
